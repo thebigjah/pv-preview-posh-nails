@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Posh Nails | Nail salon in Auburn, Alabama</title>
+<meta name="description" content="Posh Nails is a nail salon in Auburn, Alabama. Call +1-334-209-6000.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1e1a19;
+  --paper:#f7f0e8;
+  --lacquer:#a81c33;
+  --lacquer-dark:#7f1427;
+  --muted:#5b4f4a;
+  --line:#d9ccbd;
+  --wrap:1152px;
+  --pad:24px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"DM Sans",system-ui,sans-serif;font-size:18px;line-height:1.55;color:var(--ink);background:var(--paper)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+
+.notice{background:var(--ink);color:#fff;font-size:14px;line-height:1.4;text-align:center;padding:10px var(--pad)}
+
+/* hero */
+.hero{background:var(--lacquer);color:#fff;padding:56px 0 64px}
+.hero .wrap{display:grid;gap:40px}
+.name{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(64px,19vw,176px);line-height:.88;letter-spacing:-.02em}
+.name span{display:block}
+.name span+span{font-weight:500;font-style:italic;padding-left:.35em}
+.lead{font-size:clamp(20px,2.4vw,26px);line-height:1.4;max-width:30ch}
+.facts{border-top:1px solid rgba(255,255,255,.45)}
+.facts div{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.45)}
+.facts dt{font-size:15px;opacity:.9;padding-top:3px}
+.facts dd{font-size:20px;font-weight:500}
+.btn{display:inline-block;margin-top:28px;background:#fff;color:var(--lacquer-dark);font-weight:700;font-size:20px;text-decoration:none;padding:16px 28px;border-radius:4px}
+.btn:hover{background:var(--paper)}
+.btn:focus-visible{outline-color:#fff}
+
+/* ask */
+.ask{padding:72px 0 80px}
+.ask .wrap{display:grid;gap:32px}
+h2{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-.01em;max-width:14ch}
+.ask ol{list-style:none;counter-reset:q;border-top:1px solid var(--line)}
+.ask li{counter-increment:q;display:grid;grid-template-columns:48px 1fr;padding:22px 0;border-bottom:1px solid var(--line);font-size:20px}
+.ask li::before{content:counter(q);font-family:"Fraunces",Georgia,serif;font-weight:700;color:var(--lacquer);font-size:28px;line-height:1.1}
+.ask li small{display:block;font-size:16px;color:var(--muted);margin-top:4px}
+
+footer{border-top:1px solid var(--line);padding:28px 0 36px;font-size:16px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between}
+footer strong{font-family:"Fraunces",Georgia,serif;color:var(--ink);font-size:20px}
+
+@media(min-width:900px){
+  :root{--pad:48px}
+  .hero{padding:96px 0 104px}
+  .hero .wrap{grid-template-columns:1.5fr 1fr;align-items:end;gap:72px}
+  .name{grid-column:1 / -1}
+  .lead{max-width:22ch}
+  .ask{padding:112px 0 120px}
+  .ask .wrap{grid-template-columns:1fr 1.4fr;gap:72px}
+}
+</style>
+</head>
+<body>
+<div class="notice">Concept preview made by Purcell Ventures for Posh Nails. Not the official site.</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1 class="name"><span>Posh</span><span>Nails</span></h1>
+    <div>
+      <p class="lead">A nail salon in Auburn, Alabama. Call to book your visit.</p>
+      <a class="btn" href="tel:+13342096000">Call +1-334-209-6000</a>
+    </div>
+    <dl class="facts">
+      <div><dt>Town</dt><dd>Auburn, Alabama</dd></div>
+      <div><dt>Booking</dt><dd>By phone</dd></div>
+      <div><dt>Hours</dt><dd>Ask when you call</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main>
+  <section class="ask">
+    <div class="wrap">
+      <h2>What to ask when you call</h2>
+      <ol>
+        <li><div>Which days and hours are open<small>So you can pick a time that fits your week.</small></div></li>
+        <li><div>Which services are offered<small>Tell them the look you want and they can tell you what fits.</small></div></li>
+        <li><div>How long your visit will take<small>Plan the rest of your day around it.</small></div></li>
+        <li><div>How to find the salon in Auburn<small>Get the street address and parking directions from the person on the line.</small></div></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Posh Nails</strong>
+    <span>Auburn, Alabama</span>
+    <a href="tel:+13342096000">+1-334-209-6000</a>
+  </div>
+</footer>
+</body>
+</html>
